@@ -1,0 +1,100 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family:Helvetica, sans-serif;
+	
+}
+
+/*Classes de Suporte*/
+.container{
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 0 2%;	
+
+}
+
+
+
+.clear{clear: both;}
+
+/*Classes Principais*/
+
+
+
+.logo{
+	margin-top:-15px;
+	float: left;
+}
+
+
+nav.menu-desktop{
+	float: right;
+	
+}
+
+nav.menu-desktop ul{
+	position: relative;
+	
+}
+
+nav.menu-desktop li{
+	padding: 0 40px;
+	display: inline-block;
+}
+
+nav.menu-desktop a{
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+}
+
+
+nav.menu-desktop a:hover{border-radius: 20px;background-color: #F9A825;}
+
+form{
+	max-width: 500px;
+	width:70%;
+	margin-left:400px;
+	position:absolute;
+	left:40%;
+	top:50%;
+	transform: translate(-50%,-50%);
+	height: 40px;
+}
+
+
+div.texto-central{
+	max-width: 500px;
+	width:70%;
+	padding:20px;
+	position:absolute;
+	left:40%;
+	top:50%;
+	transform: translate(-50%,-50%);
+	background-color: lightgrey;
+}
+
+footer{ 
+		position:absolute; 
+		bottom:0; 
+		width:100%; 
+		height:80px; 
+		background-color: #212121;
+		color:white
+}
+
+header{
+		position:absolute; 
+		top:0; 
+		width:100%; 
+		height:40px; 
+		background-color: #212121;
+		color:white;
+}
+
+body{ font:bold 1.2em/2.5 Helvetica; text-align:center; }
+
+
+
+
